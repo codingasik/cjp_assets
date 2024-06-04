@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Codingasik Admin</title>
+
+  <!-- font roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <main>
+
+    <!-- aside -->
+    <aside class="sidebar">
+      <a href="index.html" class="brand-link">
+        <img src="assets/img/logo.png" alt="Logo" class="brand-logo">
+        <h1 class="brand-title sidebar-text">Admin Cosik</h1>
+      </a>
+      <hr class="line">
+      <div class="menu">
+        <a href="index.html" class="menu-item active">
+          <i class="fa-solid fa-house"></i>
+          <p class="sidebar-text">Dashboard</p>
+        </a>
+        <a href="user.html" class="menu-item">
+          <i class="fa-solid fa-user"></i>
+          <p class="sidebar-text">User</p>
+        </a>
+        <a href="kategori.html" class="menu-item">
+          <i class="fa-solid fa-clipboard-check"></i>
+          <p class="sidebar-text">Kategori</p>
+        </a>
+        <a href="produk.html" class="menu-item">
+          <i class="fa-solid fa-rectangle-list"></i>
+          <p class="sidebar-text">Produk</p>
+        </a>
+        <a href="pengaturan.html" class="menu-item">
+          <i class="fa-solid fa-gear"></i>
+          <p class="sidebar-text">Pengaturan</p>
+        </a>
+      </div>
+
+    </aside>
+    <!-- end aside -->
+    <!-- navbar -->
+    <nav class="navbar">
+      <button class="navbar-collapse">
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </button>
+      <button class="navbar-menu">
+        <i class="fa-solid fa-user"></i>
+        <span>Admin</span>
+      </button>
+      <button class="navbar-dropdown">
+        <a href="login.html" class="navbar-link">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          Logout
+        </a>
+      </button>
+    </nav>
+    
+    <!-- end navbar -->
+    <!-- content -->
+    <section class="content">
+      <h1 class="content-header">Dashboard</h1>
+
+      <div class="info-section">
+        <div class="info">
+          <div class="info-body">
+            <div class="info-header">
+              <h3 class="info-title">10</h3>
+              <p>Total User</p>
+            </div>
+            <div class="info-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <a class="info-footer" href="user.html">
+            Detail <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </div>
+        <div class="info">
+          <div class="info-body">
+            <div class="info-header">
+              <h3 class="info-title">15</h3>
+              <p>Total Kategori</p>
+            </div>
+            <div class="info-icon">
+              <i class="fa-solid fa-clipboard-check"></i>
+            </div>
+          </div>
+          <a class="info-footer" href="kategori.html">
+            Detail <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </div>
+        <div class="info">
+          <div class="info-body">
+            <div class="info-header">
+              <h3 class="info-title">100</h3>
+              <p>Total Produk</p>
+            </div>
+            <div class="info-icon">
+              <i class="fa-solid fa-rectangle-list"></i>
+            </div>
+          </div>
+          <a class="info-footer" href="produk.html">
+            Detail <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- end content -->
+    <!-- footer -->
+    <footer class="footer">
+      <p>Copyright 2023 <a href="https://bagascodingasik.com">Coding Asik</a></p>
+    </footer>
+    
+    <!-- end footer -->
+  </main>
+  
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
